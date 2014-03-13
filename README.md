@@ -38,13 +38,13 @@ Install
 
 Read, then run the script:
 
-    bash <(curl -s https://raw.github.com/thoughtbot/laptop/master/mac)
+    bash <(curl -s https://raw.github.com/kenyonj/laptop/master/mac)
 
 ### Linux
 
 Read, then run the script:
 
-    bash <(wget -qO- https://raw.github.com/thoughtbot/laptop/master/linux)
+    bash <(wget -qO- https://raw.github.com/kenyonj/laptop/master/linux)
 
 What it sets up
 ---------------
@@ -61,9 +61,9 @@ What it sets up
 * Postgres for storing relational data
 * Qt for headless JavaScript testing via Capybara Webkit
 * Rails gem for writing web applications
-* Rbenv for managing versions of the Ruby programming language
+* chruby for managing versions of the Ruby programming language
 * Redis for storing key-value data
-* Ruby Build for installing Rubies
+* Ruby Install for installing Rubies
 * Ruby stable for writing general-purpose code
 * The Silver Searcher for finding things in files
 * Tmux for saving project state and switching between projects
